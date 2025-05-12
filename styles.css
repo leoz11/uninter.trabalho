@@ -1,0 +1,134 @@
+body {
+  background-color: #f0fff0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 0 5vw;
+}
+
+section {
+  margin-top: 10vh;
+}
+
+.first-section {
+  text-align: center;
+}
+
+.first-section h1 {
+  color: #d2691e;
+  text-align: center;
+}
+
+.first-section p {
+  font-size: 20px;
+  max-width: 100%;
+  width: 80vh;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.first-section button {
+  background-color: #2f4f4f;
+  color: #f0fff0;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid #006400;
+  cursor: pointer;
+}
+
+.first-section button:hover {
+  background-color: #006400;
+  transition: 0.3s;
+}
+
+#mensagemBotao {
+  margin-top: 2vh;
+  font-weight: bold;
+  color: #d2691e;
+}
+
+.hobby-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobby-section h2 {
+  margin-bottom: 50px;
+}
+
+.hobby-section ul {
+  margin-bottom: 30px;
+}
+
+.hobby-section ul li {
+  margin-bottom: 30px;
+}
+
+.hobby-section img {
+  border-radius: 5%;
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.country-section {
+  text-align: center;
+}
+
+.country-section h2 {
+  margin-bottom: 20px;
+}
+
+.country-section table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.country-section table,
+th,
+td {
+  border: 2px solid black;
+}
+
+.country-section table img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.link-section {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+.link-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-section a:hover {
+  color: rgb(0, 87, 22);
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .hobby-section {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hobby-section ul {
+    margin-right: 10vh;
+    margin-bottom: 0;
+  }
+}
